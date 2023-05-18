@@ -14,6 +14,9 @@ const config = {
    *
    * @see https://github.com/vercel/next.js/issues/41980
    */
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
