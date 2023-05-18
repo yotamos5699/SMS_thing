@@ -48,14 +48,14 @@ export const Editor = (props: EditorProps) => {
 
   return (
     <div
-      id="editor-wrapper"
-      className={cx(
-        props.className,
-        "prose prose-slate prose-p:my-0 prose-headings:mb-4 prose-headings:mt-2 relative"
-      )}
-      // className="prose prose-slate prose-p:my-0 prose-headings:mb-4 prose-headings:mt-2 relative"
+    // id="editor-wrapper"
+    // className={cx(
+    //   props.className,
+    //   "prose prose-slate prose-p:my-0 prose-headings:mb-4 prose-headings:mt-2 relative"
+    // )}
+    // className="prose prose-slate prose-p:my-0 prose-headings:mb-4 prose-headings:mt-2 relative"
     >
-      <EditorHistoryStateContext>
+      {/* <EditorHistoryStateContext>
         <LexicalEditor
           config={{
             namespace: EDITOR_NAMESPACE,
@@ -77,7 +77,8 @@ export const Editor = (props: EditorProps) => {
             },
           }}
         />
-      </EditorHistoryStateContext>
+      </EditorHistoryStateContext> */}
+      <p>only on dev server for now....</p>
     </div>
   );
 };
