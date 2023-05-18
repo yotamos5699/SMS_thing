@@ -1,3 +1,4 @@
+"use client";
 import cx from "classnames";
 
 import { CodeNode } from "@lexical/code";
