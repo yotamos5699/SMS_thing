@@ -22,5 +22,5 @@ export function $getSharedLinkTarget(
     return i > 0 ? linkTarget === prevLinkTarget : true;
   });
 
-  return sharedLinkTarget ? nodes[0].getParent()?.getURL() : undefined;
+  return sharedLinkTarget ? nodes[0]?.getParent()?.getURL() : undefined;
 }
