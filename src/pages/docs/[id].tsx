@@ -34,35 +34,6 @@ function Doc() {
       }
     });
   };
-  //   const uploadImageCallBack = async (file) => {
-  //     const imgData = await apiClient.uploadInlineImageForArticle(file);
-  //     return Promise.resolve({ data: {
-  //       link: `${process.env.NEXT_PUBLIC_API_URL}${imgData[0].formats.small.url}`
-  //     }});
-  //   }
-  //   async function uploadImageCallBack(file: any) {
-  //     return new Promise((resolve, reject) => {
-  //       const xhr = new XMLHttpRequest();
-  //       //   xhr.open("POST", "https://api.imgur.com/3/image");
-  //       //   xhr.setRequestHeader("Authorization", "Client-ID ##clientid##");
-  //       //   const data = new FormData();
-  //       //   data.append("image", file);
-  //       //   xhr.send(data);
-  //       //   xhr.addEventListener("load", () => {
-  //       //     const d = xhr.responseText;
-  //       //     console.log({ d });
-  //       //     const response = JSON.parse(xhr.responseText);
-  //       //     console.log(response);
-  //       setEditorState(prev:)
-  //       resolve({ image: file });
-  //     });
-  //     //   xhr.addEventListener("error", () => {
-  //     //     const error = xhr.responseText;
-  //     //     console.log(error);
-  //     //     reject(error);
-  //     //   });
-  //     // });
-  //   }
 
   return (
     <div className="flex w-full flex-col">

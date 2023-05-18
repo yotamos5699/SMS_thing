@@ -1,5 +1,3 @@
-"use client";
-
 import cx from "classnames";
 
 import { CodeNode } from "@lexical/code";
@@ -44,7 +42,7 @@ type EditorProps = {
   className?: string;
 };
 
-export function Editor(props: EditorProps) {
+export const Editor = (props: EditorProps) => {
   const content = localStorage.getItem(EDITOR_NAMESPACE);
 
   return (
@@ -81,7 +79,7 @@ export function Editor(props: EditorProps) {
       </EditorHistoryStateContext>
     </div>
   );
-}
+};
 
 type LexicalEditorProps = {
   config: Parameters<typeof LexicalComposer>["0"]["initialConfig"];
